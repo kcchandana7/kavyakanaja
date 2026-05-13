@@ -1,0 +1,57 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "ಕುವೆಂಪು",
+      "biography": "Kuvempu (1904-1994) was a renowned Kannada writer, poet, and playwright. He won the Padma Bhushan award for his contributions to Kannada literature.",
+      "notablePoemCount": 15,
+      "era": "20th Century"
+    },
+    {
+      "id": 2,
+      "name": "ಪುಂಡರೀಕ",
+      "biography": "Pundarik was a classical Kannada poet known for his devotional works and philosophical poetry.",
+      "notablePoemCount": 12,
+      "era": "Medieval"
+    },
+    {
+      "id": 3,
+      "name": "ಹನುಮಂತಯ್ಯ",
+      "biography": "Hanumantayya was a revered Kannada saint poet and philosopher who composed beautiful devotional verses.",
+      "notablePoemCount": 18,
+      "era": "Medieval"
+    }
+  ],
+  "poems": [
+    {
+      "id": 1,
+      "title": "ಪ್ರಿಯಾ",
+      "content": "ನಿನ್ನ ನೋಟದ ಮಧುರತೆಯೊಂದಿಗೆ,\nನನ್ನ ಹೃದಯವು ನೃತ್ಯ ಮಾಡುತ್ತದೆ,\nಪ್ರತಿದಿನ ನಿನ್ನೆ ಯೋಚಿಸುತ್ತೇನೆ,\nನೋ ಪ್ರಿಯೆ, ನೋ ಮಾತೃತೆ.",
+      "authorId": 1,
+      "category": "General",
+      "meanings": "ಪ್ರಿಯಾ - ಪ್ರಿಯ ಜನ, ಮಧುರತೆ - ಮಿಠಾಗಿ, ನೃತ್ಯ - ನಾಚಿಸು",
+      "language": "Kannada",
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "title": "ಭಾರತ ಅನ್ನನ ಮಾತೃಮಂದಿರ",
+      "content": "ಈ ಭಾರತದ ಮಣ್ಣು ಸಾಂಸ್ಕೃತಿಕವಾಗಿ ಸಮೃದ್ಧ,\nಸಾವಿರ ವರ್ಷಗಳ ಪ್ರಾಚೀನ ಆಚರಣೆಯೋಂದಿಗೆ,\nನಾವು ಎಲ್ಲಿ ಇದ್ದೆವೋ ಎ ದೇಶ ಪಾಲಕಿ,\nಮಾತೃಭೂಮಿಯ ಆಲಿಂಗನದಲ್ಲಿ.",
+      "authorId": 3,
+      "category": "Devotional",
+      "meanings": "ಮಣ್ಣು - ಭೂಮಿ, ಸಮೃದ್ಧ - ಭರಿತ, ಮಾತೃಭೂಮಿ - ತಾಯ್ದ ದೇಶ",
+      "language": "Kannada",
+      "isFavorite": false
+    },
+    {
+      "id": 3,
+      "title": "ಧರ್ಮದ ಮೆಚ್ಚುಗೆ",
+      "content": "ಧರ್ಮವು ನಮ್ಮ ಬುಂದೆಯ ಅಧಾರ,\nಸತ್ಯವೂ ನೀತಿಯೂ ಆದ ಗಲಿ,\nನಾವು ಅದನ್ನು ಅನುಸರಿಸಿದರೆ,\nನಮ್ಮ ಜೀವನವು ವಿಶ್ವಶಾಂತಿ ಉಳ್ಳವಾಗುತ್ತದೆ.",
+      "authorId": 2,
+      "category": "Bhavaartha",
+      "meanings": "ಧರ್ಮ - ಧರ್ಮ, ಬುಂದೆ - ಆಧಾರ, ಗಲಿ - ಮಾರ್ಗ, ಶಾಂತಿ - ಶಾಂತಿ",
+      "language": "Kannada",
+      "isFavorite": false
+    }
+  ]
+}

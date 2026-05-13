@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ಕವ್ಯ-ಕನಜ (Kavya-Kanaja)</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="authors">Authors</string>
+    <string name="add_poem">Add Poem</string>
+    <string name="poem_of_the_day">Poem of the Day</string>
+    <string name="read_more">Read More</string>
+    <string name="listen_learn">Listen &amp; Learn</string>
+    <string name="word_meanings">Word Meanings</string>
+    <string name="bhavaartha">Bhavaartha (Philosophy)</string>
+    <string name="share">Share</string>
+    <string name="poetry_granary">Poetry Granary</string>
+    <string name="recent_poems">Recent Poems</string>
+    <string name="poets_corner">Poet\'s Corner</string>
+    <string name="search_poems">Search poems...</string>
+    <string name="no_poems_yet">No Poems Yet</string>
+    <string name="add_first_poem">Add your first poem to get started</string>
+    <string name="no_favorites">No Favorites Yet</string>
+    <string name="mark_favorites">Mark poems as favorites to see them here</string>
+    <string name="no_authors">No Authors Found</string>
+    <string name="discover_poets">Discover famous Kannada poets and their works</string>
+    <string name="author_information">Author Information</string>
+    <string name="poem_information">Poem Information</string>
+    <string name="author_name">Author Name</string>
+    <string name="author_biography">Author Biography</string>
+    <string name="poem_title">Poem Title</string>
+    <string name="poem_content">Poem Content</string>
+    <string name="category">Category</string>
+    <string name="save_poem">Save Poem</string>
+</resources>
