@@ -1,58 +1,181 @@
-📖 Kavyakanaja
-A modern Kannada literature app built with Jetpack Compose, designed to preserve, explore, and experience Kannada poetry, authors, and literary works in a structured and interactive way.
-The project focuses on clean architecture, offline-first data handling, and a smooth reading experience for regional literature content.
+📜 Kavya Kanaja – Kannada Poetry Library App
 
-✨ Overview
-Kavyakanaja is an Android application that brings together Kannada poets, poems, and literary content in one place. It is built using a modern Android stack with a strong emphasis on modularity, state management, and offline persistence.
-Key goals of the project:
-Preserve Kannada literary works digitally
-Provide structured browsing of poets and poems
-Enable offline access using Room database
-Offer a clean and responsive Jetpack Compose UI
+A modern Android application built with **Jetpack Compose + Room + MVVM** to preserve, explore and celebrate Kannada poetry digitally.
+
+🌟 Overview
+
+Kavya Kanaja is a fully offline-first Android application that provides a curated digital library of Kannada poems from legendary poets like Kuvempu, D. R. Bendre and others.
+The app combines modern Android architecture with cultural preservation, making classical literature accessible to today’s mobile users.
+This project demonstrates real-world Android development using **Clean Architecture, MVVM, Room Database and Jetpack Compose UI**.
+
+🎯 Problem Statement
+
+Despite the richness of Kannada literature, there are very few modern, well-designed mobile apps that:
+* Preserve Kannada poems digitally
+* Provide structured browsing by authors and categories
+* Work offline without internet
+* Offer a modern, smooth and intuitive UI
+Kavya Kanaja solves this problem by creating a structured digital poetry library with offline storage and a modern user experience.
 
 ✨ Key Features
 
-📚 Extensive Poetry Collection
-Explore a curated collection of Kannada poems from renowned poets.
+📖 Poetry Library
+* Browse a curated collection of Kannada poems
+* Structured and categorized content
+* Offline storage using Room Database
 
-👤 Poet Profiles
-Learn about legendary Kannada poets with biographies and details.
+🖋️ Author Exploration
+* View legendary Kannada poets
+* Explore poems by specific authors
+* Author biography and description
 
-📖 Poem with Meaning
-Read Kannada poems along with easy English explanations.
+⭐ Favorites System
+* Mark poems as favorite
+* Quick access to saved poems
 
-❤️ Favorites System
-Save your favorite poems and access them anytime offline.
+📅 Poem of the Day
+* Dynamic daily featured poem
+* Encourages daily reading habit
 
-🏠 Poem of the Day
-Get a new inspiring Kannada poem every day.
+➕ Add New Poems
+* Add your own poems to the library
+* Persisted locally using Room DB
 
-➕ Add Your Own Poems
-Contribute and store your personal poetry collection.
+🧭 Modern Navigation
+* Bottom Navigation Bar
+* Multi-screen architecture using NavGraph
 
-📱 Modern UI Experience
-Built with Jetpack Compose and Material 3 for a smooth and elegant interface.
+🧱 Architecture
+This project follows **Clean MVVM Architecture**:
 
-🌟 Why Kavyakanaja?
-Lightweight and fast
-Offline-first experience using Room database
-Clean and distraction-free reading interface
-Designed for Kannada literature lovers
-Built with modern Android architecture (MVVM)
+UI (Jetpack Compose)
+   ↓
+ViewModel (State management)
+   ↓
+Repository (Single source of truth)
+   ↓
+Room Database (Local storage)
 
-📖 Perfect For
-Kannada literature enthusiasts
-Students learning Kannada poetry
-Teachers and educators
-Anyone who loves classical Indian poetry
+Why this architecture?
 
-🚀 Built With
-Kotlin
-Jetpack Compose
-MVVM Architecture
-Room Database
-Coroutines & Flow
-Navigation Compose
+✔ Scalable
+✔ Testable
+✔ Maintainable
+✔ Industry standard
 
-❤️ My Mission
-To preserve and promote the richness of Kannada poetry in a modern digital form, making it accessible to everyone, anytime.
+
+# 🛠️ Tech Stack
+
+| Category             | Technology                 |
+| -------------------- | -------------------------- |
+| Language             | Kotlin                     |
+| UI Toolkit           | Jetpack Compose            |
+| Architecture         | MVVM                       |
+| Database             | Room Database              |
+| Dependency Injection | ViewModel Factory          |
+| Navigation           | Jetpack Navigation Compose |
+| State Management     | StateFlow / LiveData       |
+| IDE                  | Android Studio             |
+
+📂 Project Structure
+
+com.example.kavyakanaja
+│
+├── data
+│   ├── dao
+│   │   ├── AuthorDao
+│   │   └── PoemDao
+│   ├── db
+│   │   └── AppDatabase
+│   └── repository
+│       ├── AuthorRepository
+│       ├── PoemRepository
+│       └── PoemData
+│
+├── model
+│   ├── Author
+│   ├── Poem
+│   ├── PoemWithAuthor
+│   └── Poet
+│
+├── ui
+│   ├── components
+│   │   ├── BottomBar
+│   │   ├── PoemItem
+│   │   └── PoetCard
+│   ├── navigation
+│   │   ├── NavGraph
+│   │   └── Routes
+│   ├── screens
+│   │   ├── HomeScreen
+│   │   ├── LibraryScreen
+│   │   ├── AuthorsScreen
+│   │   ├── FavoritesScreen
+│   │   ├── AddPoemScreen
+│   │   └── PoemDetailScreen
+│   └── theme
+│
+├── viewmodel
+│   ├── AuthorViewModel
+│   ├── PoemViewModel
+│   └── ViewModelFactory
+│
+└── MainActivity
+
+📱 App Screenshots
+
+🏠 Home Screen – Poem of the Day
+* Daily highlighted poem
+* Clean and modern Compose UI
+
+📚 Library Screen – All Poems
+* Scrollable poetry list
+* Beautiful card-based layout
+
+👨‍🏫 Authors Screen – Kannada Legends
+* Explore poets and their works
+* Rich author profiles
+
+🚀 How to Run the Project
+1️⃣ Clone the Repository
+bash
+git clone https://github.com/kcchandana7/kavyakanaja.git
+
+2️⃣ Open in Android Studio
+* Open Android Studio
+* Select **Open Project**
+* Choose the cloned folder
+
+3️⃣ Run the App
+* Connect device or start emulator
+* Click ▶ Run
+
+
+🎓 Learning Highlights
+This project demonstrates:
+* Real MVVM implementation in Compose
+* Room Database relationships (Poem ↔ Author)
+* Navigation Compose architecture
+* Repository pattern
+* Clean UI component separation
+* Scalable folder structure
+* Offline-first mobile app design
+
+📈 Future Improvements
+* Cloud sync with Firebase
+* Search functionality 🔍
+* Dark mode 🌙
+* Share poems feature 📤
+* Multi-language support 🌍
+* Play Store release 🚀
+
+👩‍💻 Developer
+
+K C Chandana
+
+Android Developer | Kotlin | Jetpack Compose
+Passionate about building apps that blend technology + culture
+
+⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub!
+
