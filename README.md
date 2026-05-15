@@ -150,6 +150,7 @@ git clone https://github.com/kcchandana7/kavyakanaja.git
 * Connect device or start emulator
 * Click ▶ Run
 
+demo link: https://appdistribution.firebase.google.com/testerapps/1:666899114528:android:f464e556bf5522108eea45/releases/0o4qpvb5mcsgo?utm_source=firebase-console
 
 🎓 Learning Highlights
 This project demonstrates:
